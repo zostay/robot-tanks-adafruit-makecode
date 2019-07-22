@@ -14,7 +14,7 @@ namespace Tank {
      */
     //% blockId=tank_turn_left
     //% block="turn left|%deg|degrees"
-    //% deg.min=0 deg.max=360 d.defl=90
+    //% deg.min=0 deg.max=360 deg.defl=90
     export function turnLeft(deg: Number): void {
 
     }
@@ -24,7 +24,7 @@ namespace Tank {
      */
     //% blockId=tank_turn_right
     //% block="turn right|%deg|degrees"
-    //% deg.min=0 deg.max=360 d.defl=90
+    //% deg.min=0 deg.max=360 deg.defl=90
     export function turnRight(deg: Number): void {
 
     }
