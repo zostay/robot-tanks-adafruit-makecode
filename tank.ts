@@ -3,9 +3,9 @@ namespace Tank {
      * Move the tank forward.
      */
     //% blockId=tank_move_forward
-    //% block="forward|%d|cm"
-    //% d.min=0 d.max=100 d.defl=1
-    export function moveForward(d: Number): void {
+    //% block="forward|%distance|cm"
+    //% distance.min=0 distance.max=100 distance.defl=1
+    export function moveForward(distance: Number): void {
 
     }
 
@@ -13,9 +13,9 @@ namespace Tank {
      * Turn the tank left.
      */
     //% blockId=tank_turn_left
-    //% block="turn left|%deg|degrees"
-    //% deg.min=0 deg.max=360 deg.defl=90
-    export function turnLeft(deg: Number): void {
+    //% block="turn left|%degrees|degrees"
+    //% degrees.min=0 degrees.max=360 degrees.defl=90
+    export function turnLeft(degrees: Number): void {
 
     }
 
@@ -23,9 +23,9 @@ namespace Tank {
      * Turn the tank right.
      */
     //% blockId=tank_turn_right
-    //% block="turn right|%deg|degrees"
-    //% deg.min=0 deg.max=360 deg.defl=90
-    export function turnRight(deg: Number): void {
+    //% block="turn right|%degrees|degrees"
+    //% degrees.min=0 degrees.max=360 degrees.defl=90
+    export function turnRight(degrees: Number): void {
 
     }
 }
